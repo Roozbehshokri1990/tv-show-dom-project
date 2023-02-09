@@ -497,7 +497,10 @@ function getAllEpisodes() {
           "http://static.tvmaze.com/uploads/images/medium_landscape/1/3196.jpg",
         original:
           "http://static.tvmaze.com/uploads/images/original_untouched/1/3196.jpg",
-      },
+      },  
+
+
+      
       summary:
         "<p>A massive battle rages for control of King's Landing and the Iron Throne.</p>",
       _links: {
