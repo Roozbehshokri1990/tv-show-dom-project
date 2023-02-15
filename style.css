@@ -98,3 +98,13 @@ img{
   margin-right: 16px;
   font-size: 17px;
 }
+
+
+#select-input1 {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
