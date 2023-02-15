@@ -6,24 +6,34 @@
     <title>TV Show Project | Roozbeh (Roozbehshokri1990)</title>
     <link href="style.css" rel="stylesheet" />
     
+
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <script src="shows.js"></script>
+    <script src="script.js" defer></script>
   </head>
+  <body>
+    
+  
 <div>
     <div class="topnav">
       <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <input type="text" placeholder="Search.." id="search-input">
-      <select name="" id="select-input"></select>
-      <select name="" id="select-input1"></select>
+      <!-- <a href="#about">About</a> -->
+      <!-- <a href="#contact">Contact</a> -->
+      <input type="text" placeholder="Search for an episode.." id="search-input">
+      <!-- <select name="" id="select-input"></select> -->
+      <select name="" id="select-episode"></select>
+      <select name="" id="select-show"></select>
     </div>
     <div id="root">
       <div class="container"></div>
 <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
-    <script src="shows.js"></script>
+   
     <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
+   
   </body>
+  <footer>
+    date comes from <a href="https://tvmaze.com/">tv maze</a>">. thanks tv maze!
+  </footer>
 </html>
 
